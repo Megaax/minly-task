@@ -38,9 +38,9 @@ Before running any part of the project, ensure you have the following prerequisi
    
    run ```npm start```  to start the frontend server
 
-**Run Flutter Server**:
+4. **Run Flutter Server**:
 
-  Navigate to the Flutter application directory.
+   Navigate to the Flutter application directory.
 
-  Execute ```flutter run``` to run the application on a connected device or simulator.
+   Execute ```flutter run``` to run the application on a connected device or simulator.
    
