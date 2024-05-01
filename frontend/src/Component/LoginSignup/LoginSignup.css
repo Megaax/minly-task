@@ -1,0 +1,108 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 100px;
+    /* Reduced margin-top */
+    background: linear-gradient(180deg, #FE6B8B 30%, #FF8E53 90%);
+    /* Gradient background */
+    padding-bottom: 30px;
+    border-radius: 10px;
+    /* Added border-radius for rounded corners */
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 9px;
+    width: 100%;
+    margin-top: 30px;
+}
+
+.text {
+    color: #fff;
+    /* Changed text color to white */
+    font-size: 32px;
+    /* Reduced font size */
+    font-weight: 700;
+}
+
+/* Styling for underlined element */
+.underline {
+    width: 61px;
+    height: 6px;
+    background: #fff;
+    border-radius: 9px;
+}
+
+.inputs {
+    margin-top: 35px;
+    /* Reduced margin-top */
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    /* Reduced gap */
+}
+
+.input {
+    display: flex;
+    align-items: center;
+    margin: auto;
+    width: 320px;
+    /* Reduced width */
+    height: 60px;
+    /* Reduced height */
+    background: #f5f5f5;
+    /* Changed background color */
+    border-radius: 6px;
+}
+
+.input img {
+    margin: 0px 20px;
+    /* Reduced margin */
+}
+
+.input input {
+    height: 40px;
+    /* Reduced height */
+    width: 240px;
+    /* Reduced width */
+    background: transparent;
+    border: none;
+    outline: none;
+    color: #676767;
+    font-size: 16px;
+    /* Reduced font size */
+}
+
+.submit-container {
+    display: flex;
+    gap: 20px;
+    /* Reduced gap */
+    margin: 40px auto;
+    /* Reduced margin */
+}
+
+.submit {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    /* Reduced width */
+    height: 50px;
+    /* Reduced height */
+    color: #fff;
+    background: #4c00b4;
+    border-radius: 25px;
+    /* Adjusted border radius */
+    font-size: 16px;
+    /* Reduced font size */
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.grey {
+    background: #EAEAEA;
+    color: #676767;
+}
