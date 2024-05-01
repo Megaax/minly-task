@@ -8,7 +8,7 @@ services:
     depends_on:
       - mongodb
     environment:
-      MONGO_URL: mongodb://mongodb:27017/mydatabase # Replace mydatabase with your MongoDB database name
+      MONGO_URL: mongodb://mongodb:27017/mydatabase
 
   mongodb:
     image: mongo:latest

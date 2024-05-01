@@ -11,7 +11,10 @@ jobs:
       - name: Checkout source
         uses: actions/checkout@v3
 
-      # Navigate to the backend directory
+      - name: Navigate to root directory
+        run: cd ..
+
+      # Navigate to backend directory
       - name: Navigate to backend directory
         run: cd backend
 
