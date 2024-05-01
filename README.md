@@ -18,7 +18,7 @@ Before running any part of the project, ensure you have the following prerequisi
    docker run --name mongo-container -d -p 27017:27017 mongo
 
 ## Running the Backend (Node.js) on AWS Fargate
-    the backend server is deployed to AWS Fargate using github actions  
+   the backend server is deployed to AWS Fargate using github actions  
 
 2. **Run Backend Server**:
    
@@ -40,7 +40,7 @@ Before running any part of the project, ensure you have the following prerequisi
 
 **Run Flutter Server**:
 
-Navigate to the Flutter application directory.
+  Navigate to the Flutter application directory.
 
-Execute ```flutter run``` to run the application on a connected device or simulator.
+  Execute ```flutter run``` to run the application on a connected device or simulator.
    
