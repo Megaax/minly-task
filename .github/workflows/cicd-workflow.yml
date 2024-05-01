@@ -37,6 +37,7 @@ jobs:
           IMAGE_TAG: ${{ github.sha }}
           REPOSITORY: nodejs-app
         run: |
+          cd backend  
           docker build -t $ECR_REGISTRY/$REPOSITORY:$IMAGE_TAG .
           docker push $ECR_REGISTRY/$REPOSITORY:$IMAGE_TAG
           echo "image=$ECR_REGISTRY/$REPOSITORY:$IMAGE_TAG" >> $GITHUB_OUTPUT    
