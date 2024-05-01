@@ -38,7 +38,7 @@ Before running any part of the project, ensure you have the following prerequisi
    
    run ```npm start```  to start the frontend server
 
-**Run Frontend Server**:
+**Run Flutter Server**:
 
 Navigate to the Flutter application directory.
 
